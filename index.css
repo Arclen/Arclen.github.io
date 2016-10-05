@@ -10,3 +10,86 @@ p{
     color: #000000;
     text-shadow: 2px 2px  6px #cccccc;
 }
+#j {
+    width: 50px;
+    height: 50px;
+    //border-radius: 50%;
+    background-color: white;
+    position: relative;
+    animation-name: moveJ;
+    //animation-delay: 2s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#a {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    animation-name: moveA;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#c {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    animation-name: moveC;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#o {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    animation-name: moveO;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+#b {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    animation-name: moveB;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes moveJ {
+        0%  {background-color:blue; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:blue; left:100px; top:200px;}
+    100% {background-color:blue; left:100px; top:150px;}
+}
+@keyframes moveA {
+    0%   {background-color:red; left:400px;top:15px;}     
+    20%  {background-color:red; left:300px; top:15px;}
+    40%  {background-color:red; left:300px; top:115px;}
+    60%  {background-color:red; left:400px; top:115px;}
+    80% {background-color:red; left:400px; top:15px;}
+    100% {background-color:red; left:450px; top:115px;}
+}
+@keyframes moveC {
+    0%   {background-color:green; left:600px;top:-20px;}     
+    33%  {background-color:green; left:500px; top:-20px;}
+    66%  {background-color:green; left:500px; top:80px;}
+    100% {background-color:green; left:600px; top:80px;}
+}
+@keyframes moveO {
+    0%   {background-color:yellow; left:800px;top:-50px;}     
+    25%  {background-color:yellow; left:800px; top:50px;}
+    50%  {background-color:yellow; left:700px; top:50px;}
+    75%  {background-color:yellow; left:700px; top:-50px;}
+    100% {background-color:yellow; left:800px; top:-50px;}
+}
+@keyframes moveB {
+    0%   {background-color:black; left:900px;top:-200px;}     
+    35%  {background-color:black; left:900px; top:00px;}
+    55%  {background-color:black; left:1000px; top:00px;}
+    80%  {background-color:black; left:1000px; top:-100px;}
+    100% {background-color:black; left:900px; top:-100px;}
+}
