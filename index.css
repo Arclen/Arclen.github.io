@@ -83,12 +83,12 @@ p{
   100%   {background-color:green; left:600px;top:-20px;}
 }
 @keyframes moveO {
-    0%   {background-color:green; left:600px;top:-20px;}    
+    0%   {background-color:yellow; left:800px;top:-50px;}  
     25%  {background-color:yellow; left:800px; top:50px;}
     50%  {background-color:yellow; left:700px; top:50px;}
     75%  {background-color:yellow; left:700px; top:-50px;}
     90% {background-color:yellow; left:800px; top:-50px;}
-  100%   {background-color:green; left:600px;top:-20px;}
+  100%   {background-color:yellow; left:800px;top:-50px;}
 }
 @keyframes moveB {
     0%   {background-color:black; left:900px;top:-200px;}     
