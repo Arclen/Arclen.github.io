@@ -11,6 +11,14 @@ p{
     color: #000000;
     text-shadow: 2px 2px  6px #cccccc;
 }
+
+table.center{
+    margin: 2em;
+    width:80%;
+    margin-left:auto; 
+    margin-right:auto;
+}
+
 #j {
     width: 50px;
     height: 50px;
