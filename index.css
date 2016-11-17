@@ -1,6 +1,11 @@
 h1{
 font-size: 3em;
-color: #2222FF;
+//color: #2222FF;
+   font-family:Gill, Helvetica, sans-serif;
+    color: #090909;
+    letter-spacing: 0.1em;
+    font-size: 5em;
+    text-align: center;
   text-shadow: 3px 3px 3px #dddddd;
   text-align:center;
 }
