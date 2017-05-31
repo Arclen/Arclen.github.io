@@ -1,181 +1,158 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<style>
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote {
-    margin: 0;
-    padding: 0;
+//http://orig04.deviantart.net/2362/f/2013/184/9/7/gato_pusheen_png_3_by_vaniiina-d6bsuw2.png
+#image{
+position:absolute;
+  width: 300px;
 }
-body {
-    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
-    font-size: 13px;
-    line-height: 18px;
-    color: #737373;
-    background-color: white;
-    margin: 10px 13px 10px 13px;
+.bar{
+    margin-top:15px;
+    background-color:#4286f4;
+    height:100px;
+    width:100%;}
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(360deg);
+  }
 }
-table {
-	margin: 10px 0 15px 0;
-	border-collapse: collapse;
+.blackout{
+    background-color: #4286f4;
 }
-td,th {	
-	border: 1px solid #ddd;
-	padding: 3px 10px;
+.pixx{
+    //background-image:url('http://i.imgur.com/Tx84VSX.jpg');
+    //background-image:url('https://i.ytimg.com/vi/gKIFk8BJsDc/maxresdefault.jpg');
+    //background-color: #4286f4;
+    background-repeat:no-repeat;
+    background-size:100% 100%;
 }
-th {
-	padding: 5px 10px;	
+.wander
+{
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         10s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+    position:absolute;
+  width: 300px;
+}
+.flower{
+    //font-family: 'Indie Flower', cursive;
+    font-family:Gill, Helvetica, sans-serif;
+    color: #090909;
+    letter-spacing: 0.1em;
+    font-size: 5em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    //text-shadow: 20px 20px  6px #888888;
+    //text-shadow: 6px 6px  6px #5555bb;
+    //border-radius: 50px;
+    //width: 70%;
+}
+p.linkers{
+    font-family:Gill, Helvetica, sans-serif;
+    //font-family: 'Indie Flower', cursive;
+    //color: #d3d3d3;
+    font-size: 1.4em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    //background-color: #0000cc;
+    border-radius: 50px;
+    width: 70%;
+    
+}
+p{
+    font-family:Gill, Helvetica, sans-serif;
+    font-size: 1.5em;
+    text-align: left;
+    color: #000000;
+    text-shadow: 2px 2px  6px #cccccc;
 }
 
-a {
-    color: #0069d6;
+a { 
+    color: #0000ff;
+    text-shadow: 2px 2px  6px #0000ff;
 }
-a:hover {
-    color: #0050a3;
-    text-decoration: none;
+.whitey{
+    background-color: #ffffff;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px 100px 100px 100px;
 }
-a img {
-    border: none;
+.piclink1{
+    width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
-p {
-    margin-bottom: 9px;
+ @-webkit-keyframes example {
+  0%{width:100px;height:100px;}
+  16%{width:150px;height:150px;}
+  33%{width:100px;height:100px;}
+  100%{width:100px;height:100px;}
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    color: #404040;
-    line-height: 36px;
+.piclink2{
+     width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example2;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
-h1 {
-    margin-bottom: 18px;
-    font-size: 30px;
+@-webkit-keyframes example2 {
+  0%{width:100px;height:100px;}
+  33%{width:100px;height:100px;}
+  49%{width:150px;height:150px;}
+  66%{width:100px;height:100px;}
+  100%{width:100px;height:100px;}
 }
-h2 {
-    font-size: 24px;
+.piclink3{
+     width: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation-name: example; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: example3;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
 }
-h3 {
-    font-size: 18px;
+@-webkit-keyframes example3 {
+  0%{width:100px;height:100px;}
+  66%{width:100px;height:100px;}
+  79%{width:150px;height:150px;}
+  100%{width:100px;height:100px;}
 }
-h4 {
-    font-size: 16px;
+#twenty{
+    width: 20%;
+    height: 40px;
 }
-h5 {
-    font-size: 14px;
+table.center{
+    margin: 2em;
+    width:80%;
+    margin-left:auto; 
+    margin-right:auto;
 }
-h6 {
-    font-size: 13px;
+td{
+    padding: 15px;
+    text-align: left;
+    width: 50%;
 }
-hr {
-    margin: 0 0 19px;
-    border: 0;
-    border-bottom: 1px solid #ccc;
+h1{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2.5em;
 }
-blockquote {
-    padding: 13px 13px 21px 15px;
-    margin-bottom: 18px;
-    font-family:georgia,serif;
-    font-style: italic;
+hr{
+    width: 70%;
 }
-blockquote:before {
-    content:"\201C";
-    font-size:40px;
-    margin-left:-10px;
-    font-family:georgia,serif;
-    color:#eee;
+h1.center{
+    text-align: center;
 }
-blockquote p {
-    font-size: 14px;
-    font-weight: 300;
-    line-height: 18px;
-    margin-bottom: 0;
-    font-style: italic;
-}
-code, pre {
-    font-family: Monaco, Andale Mono, Courier New, monospace;
-}
-code {
-    background-color: #fee9cc;
-    color: rgba(0, 0, 0, 0.75);
-    padding: 1px 3px;
-    font-size: 12px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px;
-}
-pre {
-    display: block;
-    padding: 14px;
-    margin: 0 0 18px;
-    line-height: 16px;
-    font-size: 11px;
-    border: 1px solid #d9d9d9;
-    white-space: pre-wrap;
-    word-wrap: break-word;
-}
-pre code {
-    background-color: #fff;
-    color:#737373;
-    font-size: 11px;
-    padding: 0;
-}
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
-* {
-	-webkit-print-color-adjust: exact;
-}
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:10px auto;
-    }
-}
-@media print {
-	body,code,pre code,h1,h2,h3,h4,h5,h6 {
-		color: black;
-	}
-	table, pre {
-		page-break-inside: avoid;
-	}
-}
-</style>
-<title>Daily Goals/Responsibilities</title>
-
-</head>
-<body>
-<h1>Daily Goals/Responsibilities</h1>
-
-<h3><ul>
-<li>Clock in and out
-<li>Check Outlook email/calendar
-<li>Learn something 
-<ul><li>Ex: Ruby on Rails, how to use Git, what is Jenkins/Rundeck</ul>
-<li>Learn one more person's name<ul><li>Until all co-workers are known, and names are associated with faces</ul>
-</ul></h3>
-
-
-<h1>Things I have to do</h1>
-
-<h3><ul>
-<li>Replace Bologna(Belavia) logo
-    </li><ul><li>need to talk to Jim in UX</ul>
-<li>Find Randall for McAfee
-<li>Swift Upgrade
-<ul><li>Fix soft errors, watch Clint/Proctor fix hard errors and learn</ul>
-</ul></h3>
-
-</body>
-</html>
